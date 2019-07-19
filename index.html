@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <img src="img/logo.png" alt="Logotype">
+        <h1>Hi,</h1>
+        <h2> I am Nohe UX Designer</h2>
+        
+      </div>
+      <div class="profile">
+        <img src="img/hello-img-1.jpg" />
+      </div>
+      <div class="about-me">
+        <h2>About me</h2>
+        <p>
+          I'm a UX/UI designer, who loves simple & unique design. I also enjoy
+          crafting prototype app mobile, design web & took photos everyday I
+          also love the motion graphic, create the graphics to later animate
+          them in After Effects. First see that we want to communicate and see
+          what is the objective of the piece that we are creating
+        </p>
+      </div>
+      <div class="portfolio">
+        <h1>Portfolio</h1>
+        <div class="projects-container">
+          <img src="img/boat_on_the_beach_brasil.jpg" />
+          <img src="img/boat_on_the_beach_brasil.jpg" />
+          <img src="img/boat_on_the_beach_brasil.jpg" />
+          <img src="img/boat_on_the_beach_brasil.jpg" />
+        </div>
+      </div>
+      <div class="my-process">
+        <h1>How is the proccess?</h1>
+        <div id="tabs">
+          <ul>
+            <li><a href="#research-tab">Research</a></li>
+            <li><a href="#define-tab">Define</a></li>
+            <li><a href="#ideation-tab">Ideation</a></li>
+            <li><a href="#prototype-tab">Prototype</a></li>
+            <li><a href="#testing-tab">Testing</a></li>
+          </ul>
+          <div>
+            <div id="research-tab">
+                <img src="img/step1-research-process-ic.png" alt="Research Phase Icon">
+                <h3>Empathy Phase</h3>
+              
+                <p>we must investigate what we want to show, 
+                    what is the objective of the project, which we want to communicate,
+                    and then make a document with the desired design. </p> 
+               
+              </div>
+
+              <div id="define-tab">
+                <img src="img/step2-define-ic.png" alt="Define Phase Icon">
+                <h3>Define Phase</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                   industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, </p>
+
+              </div>
+            <div id="ideation-tab">
+                <img src="img/step3-ideation-ic.png" alt="Ideation Phase Icon">
+                <h3>Ideation Phase</h3>
+                <p>It is a long established fact that a reader will be distracted
+                   by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less 
+                  normal distribution</p>
+
+            </div>
+            <div id="prototype-tab">
+              <img src="img/step4-prototype-ic.png" alt="Prototype Phase Icon">
+              <h3>Prototype</h3>
+              <p>There are many variations of passages of Lorem Ipsum available,
+                 but the majority have suffered alteration in some form, 
+                 by injected humour,</p>
+            </div>
+            <div id="testing-tab">
+              <img src="img/step4-prototype-ic.png" alt="Testing Phase Icon">
+              <h3>Testing</h3>
+              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                 below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">Footer</div>
+      </div>
+    </div>
+    <script>
+      $(function() {
+        $("#tabs").tabs();
+      });
+    </script>
+  </body>
+</html>
